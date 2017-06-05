@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Account</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="outer-content">
+  <div padding-top text-center>
+    <h2>{{name}}</h2>
+
+    <ion-list inset>
+      <ion-item>{{ 'USERNAME' | translate}}: {{username}}</ion-item>
+      <ion-item>{{ 'EMAIL' | translate}}: {{email}}</ion-item>
+      <ion-item no-lines></ion-item>
+      <button ion-item (click)="account()" no-lines text-center>{{ 'ACCOUNT_MANAGEMENT' | translate}}</button>
+      <button ion-item (click)="logout()" no-lines text-center>{{ 'LOGOUT' | translate}}</button>
+    </ion-list>
+  </div>
+</ion-content>

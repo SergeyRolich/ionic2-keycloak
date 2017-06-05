@@ -1,0 +1,14 @@
+{
+  "BACK_BUTTON_TEXT" : "Back",
+
+  "NAME": "Full Name",
+  "EMAIL": "Email",
+  "USERNAME": "Username",
+  "PASSWORD": "Password",
+  "LOGIN": "Login",
+  "SIGNUP": "Sign up",
+  "ACCOUNT_MANAGEMENT": "Account Managemnt",
+  "LOGOUT": "Logout",
+
+  "WELCOME_INTRO" : "The starting point for your next great Ionic app"
+}
